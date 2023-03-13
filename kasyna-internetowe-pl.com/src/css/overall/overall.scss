@@ -1,0 +1,41 @@
+:root {
+  --hover: #FFA800;
+  --active: #FFC700;
+}
+
+.container {
+  max-width: 1340px;
+  padding: 0 20px;
+  margin: 0 auto;
+
+  @media (max-width: 991px) {
+    padding: 0 15px;
+  }
+
+  @media (max-width: 600px) {
+    padding: 0 10px;
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Manrope';
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #EAEAEA;
+}
+
+main {
+  flex: 1 1 auto;
+
+  &:not(:last-child) {
+    margin-bottom: 112px;
+  }
+}
+
+.main_2 {
+  &:not(:last-child) {
+    margin-bottom: 0;
+  }
+}

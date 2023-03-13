@@ -1,0 +1,66 @@
+:root {
+  --hover: #0ABCA7;
+  --active: #09675C;
+}
+
+.container {
+  max-width: 1379px;
+  padding: 0 32px;
+  margin: 0 auto;
+
+  @media (max-width: 600px) {
+    padding: 0 16px;
+  }
+
+  @media (max-width: 359px) {
+    padding: 0 10px;
+  }
+}
+
+body {
+  background-color: #F3F3F3;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Shanti';
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+main {
+  flex: 1 1 auto;
+
+  &:not(:last-child) {
+    margin-bottom: 80px;
+
+    @media (max-width: 991px) {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+.title {
+  font-family: 'RussoOne';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+
+  @media (max-width: 991px) {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 24px;
+
+    @media (max-width: 991px) {
+      margin-bottom: 18px;
+    }
+    @media (max-width: 600px) {
+      margin-bottom: 14px;
+    }
+  }
+}

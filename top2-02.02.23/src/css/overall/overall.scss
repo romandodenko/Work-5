@@ -1,0 +1,36 @@
+.container {
+  max-width: 1355px;
+  padding: 0 20px;
+  margin: 0 auto;
+
+  @media (max-width: 991px) {
+    padding: 0 15px;
+  }
+
+  @media (max-width: 374px) {
+    padding: 0 10px;
+  }
+}
+
+body {
+  background-color: #FFFFFF;
+  @media (max-width: 600px) {
+    background-color: #EFF5F8;
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Raleway';
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+main {
+  flex: 1 1 auto;
+
+  &:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}

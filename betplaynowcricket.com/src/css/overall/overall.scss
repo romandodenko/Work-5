@@ -1,0 +1,31 @@
+:root {
+  --hover: #8f2121;
+  --active: #854242;
+}
+
+.container {
+  max-width: 1378px;
+  padding: 0 64px;
+  margin: 0 auto;
+
+  @media (max-width: 600px) {
+    padding: 0 16px;
+  }
+
+  @media (max-width: 370px) {
+    padding: 0 10px;
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: Graphik, Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #FCFBF8;
+}
+
+main {
+  flex: 1 1 auto;
+}

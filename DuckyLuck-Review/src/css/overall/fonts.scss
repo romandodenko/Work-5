@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Shanti';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Shanti-Regular'),
+       url("../../fonts/Shanti-Regular.woff2") format("woff2"),
+       url("../../fonts/Shanti-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Rambla';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Rambla-Regular'),
+       url("../../fonts/Rambla-Regular.woff2") format("woff2"),
+       url("../../fonts/Rambla-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Sansation';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Sansation-Bold'),
+       url("../../fonts/Sansation-Bold.woff2") format("woff2"),
+       url("../../fonts/Sansation-Bold.woff") format("woff");
+}

@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'VarelaRound';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('VarelaRound-Regular'),
+       url("../../fonts/VarelaRound-Regular.woff2") format("woff2"),
+       url("../../fonts/VarelaRound-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Verdana-Regular'),
+       url("../../fonts/Verdana-Regular.woff2") format("woff2"),
+       url("../../fonts/Verdana-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'VollkornSC';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('VollkornSC-Black'),
+       url("../../fonts/VollkornSC-Black.woff2") format("woff2"),
+       url("../../fonts/VollkornSC-Black.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'VollkornSC';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('VollkornSC-Bold'),
+       url("../../fonts/VollkornSC-Bold.woff2") format("woff2"),
+       url("../../fonts/VollkornSC-Bold.woff") format("woff");
+}

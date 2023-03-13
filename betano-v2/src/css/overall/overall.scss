@@ -1,0 +1,30 @@
+:root {
+  --active: #F63F00;
+}
+
+.container {
+  max-width: 798px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  @media (max-width: 600px) {
+    padding: 0 13px;
+  }
+
+  @media (max-width: 380px) {
+    padding: 0 10px;
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+main {
+  flex: 1 1 auto;
+}

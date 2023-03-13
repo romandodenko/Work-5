@@ -1,0 +1,45 @@
+.container {
+  max-width: 1385px;
+  padding: 0 35px;
+  margin: 0 auto;
+
+  @media (max-width: 991px) {
+    padding: 0 20px;
+  }
+
+  @media (max-width: 600px) {
+    padding: 0 16px;
+  }
+
+  @media (max-width: 374px) {
+    padding: 0 10px;
+  }
+}
+
+body {
+  background-color: #FFFFFF;
+  @media (max-width: 1439px) {
+
+  }
+  @media (max-width: 1220px) {
+
+  }
+  @media (max-width: 991px) {
+
+  }
+  @media (max-width: 600px) {
+    background-color: #F3F3F3;
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Shanti';
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+main {
+  flex: 1 1 auto;
+}

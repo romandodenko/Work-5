@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'VarelaRound';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('VarelaRound-Regular'),
+       url("../../fonts/VarelaRound-Regular.woff2") format("woff2"),
+       url("../../fonts/VarelaRound-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Shanti';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Shanti-Regular'),
+       url("../../fonts/Shanti-Regular.woff2") format("woff2"),
+       url("../../fonts/Shanti-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Sansita';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Sansita-ExtraBoldItalic'),
+       url("../../fonts/Sansita-ExtraBoldItalic.woff2") format("woff2"),
+       url("../../fonts/Sansita-ExtraBoldItalic.woff") format("woff");
+}

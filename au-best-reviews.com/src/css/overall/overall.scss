@@ -1,0 +1,37 @@
+.container {
+  max-width: 1435px;
+  padding: 0 60px;
+  margin: 0 auto;
+
+  @media (max-width: 600px) {
+    padding: 0 23px;
+  }
+
+  @media (max-width: 359px) {
+    padding: 0 10px;
+  }
+}
+
+body {
+  background-color: #E7E7E7;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Sarala';
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+main {
+  flex: 1 1 auto;
+
+  &:not(:last-child) {
+    margin-bottom: 65px;
+
+    @media (max-width: 991px) {
+      margin-bottom: 20px;
+    }
+  }
+}
